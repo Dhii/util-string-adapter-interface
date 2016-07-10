@@ -1,0 +1,29 @@
+{
+    "name": "dhii/util-string-adapter-interface",
+    "description": "An interface for string functionality adapters",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dhii Team",
+            "email": "development@dhii.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "dhii/stringable-interface": "dev-master"
+    },
+    "require-dev": {
+        "dhii/php-cs-fixer-config": "dev-master"
+    },
+    "repositories": [
+        {
+            "url": "https://github.com/Dhii/php-cs-fixer-config.git",
+            "type": "git"
+        },
+        {
+            "url": "https://github.com/Dhii/stringable-interface.git",
+            "type": "git"
+        }
+    ]
+}
